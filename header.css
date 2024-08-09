@@ -1,0 +1,82 @@
+.header{
+  background-color: #0e0e0e;
+  border-bottom:1px;
+  border-bottom-color: rgb(78, 77, 77);
+  border-style: solid;
+  border-width:1px;
+  margin-top:-20px;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:100px;
+  display:flex;
+  align-items:center;
+  margin-bottom:60px;
+}
+
+.header-left-section{
+  display:flex;
+  align-items:center;
+  align-self: top;
+  margin-left:50px;
+}
+
+.text-section{
+  display:flex;
+}
+
+.image{
+  width:30px;
+  height:30px;
+  object-fit: cover;
+  margin-right:15px;
+}
+
+.h3-tag{
+  color:white;
+}
+
+.h4-tag{
+  color:grey;
+}
+
+.h3-tag,
+.h4-tag{
+  margin-right:25px;
+}
+
+.header-right-section{
+  margin-left:200px;
+  align-items: center;
+}
+
+.searchbox{
+  font-size:14px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:20px;
+  background-image: url("search\ icon.svg");
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding-left: 36px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(46, 46, 46);
+  background-color:#0e0e0e;
+  border-radius:4px;
+}
+
+.download-button{
+  background-color:rgb(55, 154, 235);
+  border:none;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius:4px;
+  color:white;
+  font-size:18px;
+  margin-left:8px;
+}
